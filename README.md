@@ -1,4 +1,4 @@
-# Chat-AI---Runs-in-Windows
+# Chat-AI---Runs-in-Python
 Real time chat based LLM designed to run on windows 
 
 For anyone interested in talking to an AI Large Language Model in real time.
