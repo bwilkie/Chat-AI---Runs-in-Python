@@ -1,7 +1,10 @@
 # Chat-AI---Runs-in-Python
+
 Real time chat based LLM designed to run on windows 
 
 For anyone interested in talking to an AI Large Language Model in real time.
+
+See my other Chat-AI Colab repo for an easy to use variation. This requires dependancies but is a great starting point to build new features. 
 
 This implementation has the following features;
 
