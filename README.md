@@ -21,7 +21,7 @@ You  can select some adjustments after __main__
 1) Exit the program by clicking in the terminal and pressing Ctrl + C
 2) Porcupine for Wake Word detection is required to be pvporcupine==1.9.5 as this required no Auth Keys
 3) Models for LLM and VAD will need to be downloaded and put in the required directory
-4) gguf files if I remeber correctly require a C++ engine. As an alternative, Refact model is also loaded in code and can be selection
+4) gguf files if I remeber correctly require a C++ engine. As an alternative, Refact model is also loaded in code and can be selection (but will need to be dowloaded and placed in the correct dir)
 5) You may need to change "cuda" to "cpu" if your not working with NVidia hardware or dont have cuda installed
 
 Download requirments and thanks;
