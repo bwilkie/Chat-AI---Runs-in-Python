@@ -312,7 +312,7 @@ if __name__ == "__main__":
     # Conversation history:
     # {history} - Conversation history end. 
     # You are an AI named Jarvis who is fun, and very intelligent.
-    # Your goal is to help the human, andswer questions, and bring humour.
+    # Your goal is to help the human, answer questions, and bring humour.
     # Only speak in the first person as Jarvis, do not speak in prose, do not summarise the conversation, do not use smiley faces or emojis. Respond concisely.
     <|user|>
     {input}<|endoftext|>
@@ -334,9 +334,8 @@ if __name__ == "__main__":
         "quiklang": "zephyr-quiklang-3b-4k.Q4_K_M.gguf"
     }
 
-    #source_llm = source_dir + 'llm_model/llm_model/' + llm_mapping.get(which_llm, "")   
-    source_llm = "/app/llm/mistral-7b-instruct-v0.1.Q2_K.gguf"
-
+    source_llm = source_dir + 'llm_model/llm_model/' + llm_mapping.get(which_llm, "")   
+   
     # LLM settings for creativity
     # Test: temperature = 0.7,    top_p=20,     top_k=0.4
     # Precise: temperature =0.7, top_k = 40, top_p = 0.1
