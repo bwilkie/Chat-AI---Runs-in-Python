@@ -1,10 +1,7 @@
-# Chat-AI---Runs-in-Python
+# Chat AI, Runs locally in Python
 
-Real time chat based LLM designed to run on windows 
+For anyone interested in talking to an AI Large Language Model in real time. (See my other Chat-AI Colab repo for an easy to use variation). 
 
-For anyone interested in talking to an AI Large Language Model in real time.
-
-See my other Chat-AI Colab repo for an easy to use variation. This requires dependancies but is a great starting point to build new features. 
 
 This implementation has the following features;
 
@@ -14,26 +11,28 @@ This implementation has the following features;
 4) A Large Language Model
 5) Text to Speech
 
+This one requires dependancies but is a great starting point to build new features. 
 
-***** NOTEs
-You  can select some adjustments after __main__
+1) Porcupine for Wake Word detection is required to be pvporcupine==1.9.5 as this required no Auth Keys
+2) Gguf are lightweight, fast llm files, and require LlamaCpp. This may require other dependancies such as c++. You can use non gguf files but you will need to replace LlamaCpp with transformers. 
+3) Models for LLM and VAD will need to be downloaded and put in the required directory. Im also using some audio files for interaction. I will link these below. (this uses gguf files for speed, recommend the-bloke repo on hugging face)
 
-1) Exit the program by clicking in the terminal and pressing Ctrl + C
-2) Porcupine for Wake Word detection is required to be pvporcupine==1.9.5 as this required no Auth Keys
-3) Models for LLM and VAD will need to be downloaded and put in the required directory
-4) gguf files if I remeber correctly require a C++ engine. As an alternative, Refact model is also loaded in code and can be selection (but will need to be dowloaded and placed in the correct dir)
-5) You may need to change "cuda" to "cpu" if your not working with NVidia hardware or dont have cuda installed
-
-Download requirments and thanks;
+TheBloke and Mistral (Any gguf will work)
+https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/tree/main
+Choose a model, i.e. mistral-7b-instruct-v0.1.Q2_K.gguf
 
 Snakers4 and the file for Voice Activity Detection
 https://github.com/snakers4/silero-vad/tree/master/files/silero_vad.onnx
 
-TheBloke and Mistral
-https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/tree/main
-Choose a model, i.e. mistral-7b-instruct-v0.1.Q2_K.gguf
+***** NOTES *****
+You  can select some adjustments after __main__
 
-OR
+1) Exit the program by clicking in the terminal and pressing Ctrl + C
+2) You may need to change "cuda" to "cpu" if your not working with NVidia hardware or dont have cuda installed
 
-Refact 
-https://huggingface.co/smallcloudai/Refact-1_6B-fim/tree/main
+-----------
+
+If anyone would like to work on building this into a docker container with a web UI please hit me up. 
+
+
+
