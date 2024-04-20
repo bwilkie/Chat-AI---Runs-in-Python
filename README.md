@@ -33,6 +33,7 @@ You  can select some adjustments after __main__
 -----------
 
 If anyone would like to work on building this into a docker container with a web UI please hit me up. 
+Some other interesting improvements that could be make would be setting up multiprocessing for parallel execution, and incorporating realtime search of websites. 
 
 
 
