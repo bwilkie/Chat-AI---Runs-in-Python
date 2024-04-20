@@ -1,4 +1,4 @@
-# Chat AI, Runs locally in Python
+# Chat AI, Runs locally in Python, voice to voice
 
 For anyone interested in talking to an AI Large Language Model in real time. (See my other Chat-AI Colab repo for an easy to use variation). 
 
