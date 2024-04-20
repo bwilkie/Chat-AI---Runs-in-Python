@@ -8,7 +8,7 @@ This implementation has the following features;
 1) Voice activity detection
 2) Wake Word Recognition
 3) Speech to Text
-4) A Large Language Model
+4) A Large Language Model (with memory)
 5) Text to Speech
 
 This one requires dependancies but is a great starting point to build new features. 
