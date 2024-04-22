@@ -1,0 +1,6 @@
+In progress docker build. 
+
+1) Im unsure is cento-os is a good choice
+2) The model seems to be having audio driver issues (dev/snd not available)
+
+Would be great to build a UI where different models could be loaded, settings/prompt could be changed etc.  
