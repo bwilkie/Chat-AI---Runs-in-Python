@@ -1,0 +1,9 @@
+langchain==0.2.6
+langchain_community==0.2.6
+numpy==1.24.4
+onnxruntime==1.17.0
+pvporcupine==1.9.5
+PyAudio==0.2.14
+pyttsx3==2.90
+Requests==2.32.3
+transformers==4.31.0
