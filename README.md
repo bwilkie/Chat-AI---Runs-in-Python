@@ -13,9 +13,10 @@ This implementation has the following features;
 
 This one requires dependancies but is a great starting point to build new features. 
 
-1) Porcupine for Wake Word detection is required to be pvporcupine==1.9.5 as this required no Auth Keys
-2) Gguf are lightweight, fast llm files, and require LlamaCpp. This may require other dependancies such as c++. You can use non gguf files but you will need to replace LlamaCpp with transformers. 
-3) Models for LLM and VAD will need to be downloaded and put in the required directory. Im also using some audio files for interaction. I will link these below. (this uses gguf files for speed, recommend the-bloke repo on hugging face)
+1) Buit with Python 3.8.18
+2) Porcupine for Wake Word detection is required to be pvporcupine==1.9.5 as this required no Auth Keys
+3) Gguf are lightweight, fast llm files, and require LlamaCpp. This may require other dependancies such as c++. You can use non gguf files but you will need to replace LlamaCpp with transformers. 
+4) Models for LLM and VAD will need to be downloaded and put in the required directory. Im also using some audio files for interaction. I will link these below. (this uses gguf files for speed, recommend the-bloke repo on hugging face)
 
 TheBloke and Mistral (Any gguf will work)
 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/tree/main
